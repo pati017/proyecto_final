@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "24399bef-e433-427b-9b4d-b64bd7d7fd41",
+		"name": "PROYECTO_FINAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/usuarios delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/usuarios/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/usuarios estado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/estado",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"estado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/usuarios listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/usuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/usuarios listar por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/usuarios/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/usuarios promedio-edad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/promedio-edad",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"promedio-edad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/usuarios add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre\": \"NIVER\",\r\n\"apellido1\":\"MALDONADO\",\r\n\"apellido2\":\"GUTIERREZ\",\r\n\"cedula\":\"1897854\",\r\n\"fecha_nacimiento\":\"1922-06-18\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/usuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/usuarios edit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre\": \"JUAN\",\r\n\"apellido1\":\"QUISPE\",\r\n\"apellido2\":\"TADEO\",\r\n\"cedula\":\"61235468\",\r\n\"fecha_nacimiento\":\"1988-06-04\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/usuarios/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
